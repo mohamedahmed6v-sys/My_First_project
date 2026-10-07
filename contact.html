@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - موقعي</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<html>
+
+    <header>
+        <h2>CONTACT_US</h2>
+         <nav>
+          <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>اتصل بنا</h1>
+            <p>يرجى ملء النموذج أدناه للتواصل معنا:</p>
+
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">الاسم:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف:</label><br>
+                    <input type="number" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="visit-date">تاريخ الزيارة المقترح:</label><br>
+                    <input type="date" id="visit-date" name="visit_date">
+                </div>
+
+                <div class="form-group">
+                    <label>نوع الاستفسار:</label><br>
+                    <input type="radio" id="general" name="inquiry_type" value="general" checked>
+                    <label for="general">عام</label>
+                    
+                    <input type="radio" id="support" name="inquiry_type" value="support">
+                    <label for="support">دعم فني</label>
+                </div>
+
+                <div class="form-group">
+                    <label>الخدمات المهتم بها:</label><br>
+                    <input type="checkbox" id="service1" name="services" value="web">
+                    <label for="service1">تطوير مواقع</label>
+                    
+                    <input type="checkbox" id="service2" name="services" value="design">
+                    <label for="service2">تصميم واجهات</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">الدولة:</label><br>
+                    <select id="country" name="country">
+                        <option value="egypt">مصر</option>
+                        <option value="ksa">المملكة العربية السعودية</option>
+                        <option value="uae">الإمارات العربية المتحدة</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">الرسالة:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" placeholder="اكتب رسالتك هنا..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">إرسال البيانات</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
+
